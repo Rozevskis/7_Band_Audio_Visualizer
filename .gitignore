@@ -1,3 +1,7 @@
 *.log
 *.raw
 *.net
+*.tmp
+*auto_saved*
+*_autosave*
+*.lck
