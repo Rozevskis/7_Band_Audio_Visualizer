@@ -8223,8 +8223,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00352392-4ae4-44bc-9805-c4168ebe416e")
-		(property "Reference" "#PWR?"
+		(uuid "00352392-4ae4-44bc-9805-c4168ebe416f")
+		(property "Reference" "#PWR0105"
 			(at 483.87 204.47 0)
 			(effects
 				(font
@@ -8268,12 +8268,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e774812e-e57d-4b63-95f9-48aca9a20817")
+			(uuid "e774812e-e57d-4b63-95f9-48aca9a20818")
 		)
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
-					(reference "#PWR?")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -8363,7 +8363,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01a3be65-dd18-416d-8b03-0060800d3ab3")
+		(uuid "01a3be65-dd18-416d-8b03-0060800d3ab4")
 		(property "Reference" "R?"
 			(at 486.41 205.7399 0)
 			(effects
@@ -8409,10 +8409,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce8b5bf0-cc97-496b-b972-86a8f64e3341")
+			(uuid "ce8b5bf0-cc97-496b-b972-86a8f64e3342")
 		)
 		(pin "2"
-			(uuid "f650ad1b-4b12-40b4-814a-f2f5a341fe4e")
+			(uuid "f650ad1b-4b12-40b4-814a-f2f5a341fe4f")
 		)
 		(instances
 			(project "Music_Visualizer"
