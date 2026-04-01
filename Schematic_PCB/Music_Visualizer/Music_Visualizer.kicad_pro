@@ -1340,12 +1340,12 @@
           "show": false
         }
       ],
-      "filter_string": "r",
+      "filter_string": "d",
       "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1409,6 +1409,10 @@
     [
       "56ed3a67-eed8-4688-8767-d6bf63bd87ca",
       "LED_Driver"
+    ],
+    [
+      "c910a8c7-0bf8-4b44-820c-85a625c5ccef",
+      "Audio signal"
     ]
   ],
   "text_variables": {}
