@@ -3776,7 +3776,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW_On_Off_Switch:E-SWITCH_RR511D1121"
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
 			(at 201.93 52.07 0)
 			(effects
 				(font
@@ -7315,7 +7315,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "912033d8-ca35-416b-984f-55470e1b94aa")
+			(uuid "912033d8-ca35-416b-984f-55470e1b94ab")
 		)
 		(instances
 			(project ""
