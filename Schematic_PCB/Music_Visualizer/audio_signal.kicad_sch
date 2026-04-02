@@ -3832,7 +3832,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal"
+		(property "Footprint" "Custom_Footprints:Jack_6.35mm"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -4108,7 +4108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ4HCD2_Horizontal"
+		(property "Footprint" "Custom_Footprints:Jack_6.35mm"
 			(at 41.91 44.45 0)
 			(effects
 				(font
