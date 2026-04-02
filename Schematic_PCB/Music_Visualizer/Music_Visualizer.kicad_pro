@@ -1216,7 +1216,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}_grouped_replaced.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1340,8 +1340,8 @@
           "show": false
         }
       ],
-      "filter_string": "d",
-      "group_symbols": false,
+      "filter_string": "",
+      "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
