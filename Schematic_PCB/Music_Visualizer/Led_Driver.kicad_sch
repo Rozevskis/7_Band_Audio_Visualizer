@@ -8626,7 +8626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 78.232 254 90)
 			(effects
 				(font
@@ -8650,6 +8650,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 80.01 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8701,7 +8710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 482.092 207.01 90)
 			(effects
 				(font
@@ -8725,6 +8734,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 483.87 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8796,6 +8814,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 287.02 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "655bc83d-88e7-4f05-9df1-da8b22a5935c")
 		)
@@ -8845,7 +8872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 87.122 123.19 90)
 			(effects
 				(font
@@ -8869,6 +8896,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 88.9 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8944,6 +8980,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 214.63 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9063,6 +9108,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDART" ""
+			(at 87.63 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41d82eff-4aca-4b56-bec9-73fbe6e192f0")
 		)
@@ -9160,7 +9214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 250.952 370.84 90)
 			(effects
 				(font
@@ -9184,6 +9238,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 252.73 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9227,7 +9290,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k_LED_Brightness_Pot"
+		(property "Value" "1k_LED_Brightness_Pot"
 			(at 355.6 212.0899 0)
 			(effects
 				(font
@@ -9236,7 +9299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PTV09A_Pot_Vertical:PTV09"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 358.14 210.82 0)
 			(effects
 				(font
@@ -9260,6 +9323,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 358.14 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9482,6 +9554,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 480.06 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17f7dc57-d777-4faf-b29a-28d3eed00460")
 		)
@@ -9556,6 +9637,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9633,6 +9723,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 449.58 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59cbc84a-d65d-4ae9-8358-6dc663264f7f")
 		)
@@ -9683,7 +9782,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PTV09A_Pot_Vertical:PTV09"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
 			(at 483.87 219.71 0)
 			(effects
 				(font
@@ -9707,6 +9806,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 483.87 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9755,7 +9863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 79.502 369.57 90)
 			(effects
 				(font
@@ -9779,6 +9887,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 81.28 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9856,6 +9973,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 82.55 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b68310a-facb-4bba-8212-db8fc9821ba2")
 		)
@@ -9929,6 +10055,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 488.95 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10006,6 +10141,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 501.65 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "becd18e2-f04f-4040-b914-c635a001954b")
 		)
@@ -10073,6 +10217,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 285.75 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10221,6 +10374,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 113.03 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f222f24a-c0a1-4ad4-be31-ce0437dcd529")
 		)
@@ -10270,7 +10432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 432.562 369.57 90)
 			(effects
 				(font
@@ -10294,6 +10456,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 434.34 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10371,6 +10542,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 123.19 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b2aa366-ef19-467d-94a5-ee44f397a35e")
 		)
@@ -10446,6 +10626,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 74.93 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5da140e9-9b7e-48fb-98b5-0651cc4e0a59")
 		)
@@ -10495,7 +10684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 249.682 121.92 90)
 			(effects
 				(font
@@ -10519,6 +10708,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 251.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10667,6 +10865,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 417.83 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "478b56e3-1725-4cd3-b49a-d4b42a9354c2")
 		)
@@ -10740,6 +10947,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 105.41 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10953,6 +11169,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 44.45 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0ae05cc-2a65-4bce-b696-a6217c3e2056")
 		)
@@ -11026,6 +11251,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 236.22 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11387,6 +11621,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 143.51 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41eaa3d2-dcab-47f2-a2c6-35924b7c803f")
 		)
@@ -11604,6 +11847,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 458.47 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9cd7e1b-4cc9-4d45-b4ff-77b3ddb525e2")
 		)
@@ -11744,6 +11996,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 398.78 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2a0e20e-cd78-4d31-850d-eeae96b91630")
 		)
@@ -11817,6 +12078,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 93.98 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11933,6 +12203,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDART" ""
+			(at 433.07 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12059,6 +12338,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 265.43 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f218e1f1-ef87-4cd5-b9b1-fe360ab5563e")
 		)
@@ -12132,6 +12420,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 407.67 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12210,6 +12507,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 255.27 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4e16043-a0c7-4b6c-bed0-8acf180650d6")
 		)
@@ -12283,6 +12589,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 224.79 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12473,6 +12788,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDART" ""
+			(at 88.9 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "848bbbb1-adeb-47d1-898e-e14e1116704a")
 		)
@@ -12570,7 +12894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 423.672 121.92 90)
 			(effects
 				(font
@@ -12594,6 +12918,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 425.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12644,7 +12977,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 493.0648 213.36 0)
 			(effects
 				(font
@@ -12668,6 +13001,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 494.03 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12737,6 +13079,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 234.95 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12814,6 +13165,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 135.89 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08eb7e5a-86f1-4850-b703-d4dbb90b81ee")
 		)
@@ -12887,6 +13247,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 427.99 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12964,6 +13333,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 468.63 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "131fcac5-fc72-4df5-802b-881a15179bc8")
 		)
@@ -13037,6 +13415,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 448.31 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13165,6 +13552,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDART" ""
+			(at 476.25 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "912033d8-ca35-416b-984f-55470e1b94aa")
 		)
@@ -13229,6 +13625,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 64.77 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13304,6 +13709,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 245.11 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13488,6 +13902,15 @@
 				(hide yes)
 			)
 		)
+		(property "STANDART" ""
+			(at 260.35 336.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bafb5504-9fbe-4506-9d90-79742c3804fb")
 		)
@@ -13611,6 +14034,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 53.34 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a925def-4a04-46d7-b26c-f50977e9a077")
 		)
@@ -13686,6 +14118,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 397.51 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c0bf46e-b29e-483a-a90e-4f967c820c19")
 		)
@@ -13759,6 +14200,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 72.39 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13907,6 +14357,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 62.23 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cb293f9-fee3-4dd6-bcb9-becc926ed5c5")
 		)
@@ -14053,6 +14512,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 63.5 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfb90778-0947-4be2-a367-3ec8157c0792")
 		)
@@ -14126,6 +14594,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 215.9 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14203,6 +14680,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 134.62 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2cbd1e5-6555-4331-80fa-a0653f6e6a0a")
 		)
@@ -14276,6 +14762,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 115.57 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14353,6 +14848,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 388.62 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "460f68b1-0274-4ce9-bc22-30f71477dbe0")
 		)
@@ -14426,6 +14930,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 478.79 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14503,6 +15016,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 246.38 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9abea10b-4641-43dd-be5a-1c869c72570e")
 		)
@@ -14577,6 +15099,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 83.82 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14725,6 +15256,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 125.73 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57626c26-f9cc-4311-a199-76fc2239c282")
 		)
@@ -14871,6 +15411,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 297.18 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27eb9715-38c8-4b19-a67f-c1935fbfc233")
 		)
@@ -14944,6 +15493,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 307.34 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15021,6 +15579,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 95.25 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7aabe15-faab-4b2f-ab5f-69b7ba5fcc0b")
 		)
@@ -15094,6 +15661,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 102.87 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15171,6 +15747,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 226.06 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc6767f5-f8c5-49ac-b7f3-c90b526781d4")
 		)
@@ -15244,6 +15829,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 266.7 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15360,6 +15954,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDART" ""
+			(at 259.08 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15486,6 +16089,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 306.07 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b6a9150-b6a7-47b4-bb02-5cb0e50cd6e0")
 		)
@@ -15559,6 +16171,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 104.14 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15637,6 +16258,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 85.09 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18e226f5-8d43-4adb-a004-ab062a94877c")
 		)
@@ -15710,6 +16340,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 469.9 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15787,6 +16426,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 439.42 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbd44f37-fd43-459d-b082-d6225b330a26")
 		)
@@ -15860,6 +16508,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 275.59 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15937,6 +16594,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 408.94 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fe6b3e8-8f1b-471f-9cb2-d944741510bf")
 		)
@@ -16012,6 +16678,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 124.46 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65104257-2cff-4a50-a9cb-234bac884d1f")
 		)
@@ -16085,6 +16760,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 295.91 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16234,6 +16918,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 438.15 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c975d80e-e69d-4638-974a-9f3c8d0c77c3")
 		)
@@ -16348,6 +17041,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDART" ""
+			(at 441.96 335.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -16546,6 +17248,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 256.54 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c2a12ac-39c4-4499-bb22-f4b7b4c08233")
 		)
@@ -16693,6 +17404,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 429.26 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9ae8cf1-c197-405c-bd9b-143cb9c71bf8")
 		)
@@ -16768,6 +17488,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 133.35 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84203232-13fe-463f-9ed0-683bf92d04c4")
 		)
@@ -16839,6 +17568,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 242.57 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17058,6 +17796,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 52.07 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc9655e0-84b9-441e-ab85-50976507697c")
 		)
@@ -17131,6 +17878,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 459.74 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17208,6 +17964,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 419.1 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e4e366b-8cc8-44d3-9753-17a39eb44871")
 		)
@@ -17283,6 +18048,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 114.3 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a08c268b-5525-4ff5-ad24-45dfb68f0bba")
 		)
@@ -17356,6 +18130,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 276.86 302.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17472,6 +18255,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDART" ""
+			(at 96.52 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -17598,6 +18390,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 73.66 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9942be4c-af2b-4061-89d4-2acce08d1881")
 		)
@@ -17673,6 +18474,15 @@
 				)
 			)
 		)
+		(property "STANDART" ""
+			(at 54.61 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a63bf9ba-6483-4a2c-b98e-050611172295")
 		)
@@ -17746,6 +18556,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "STANDART" ""
+			(at 43.18 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
