@@ -5,6 +5,306 @@
 	(uuid "8d68b169-ddb7-43b3-887e-9471d5c44fe5")
 	(paper "A2")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1055,6 +1355,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TEST-1_Y_:TEST-1_Y_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 5.334 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TEST-1_Y_"
+				(at 5.334 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Custom_Footprints:TEST1Y"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Multicomp Pro"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TEST-1(Y)"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TEST-1_Y__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+9V"
 			(power)
 			(pin_names
@@ -1589,6 +2023,12 @@
 		(uuid "53614bd4-b1d3-4b48-bc69-2e6b6b363393")
 	)
 	(junction
+		(at 497.84 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53c3d8ca-914a-40e9-8456-09b7dbaf2a78")
+	)
+	(junction
 		(at 449.58 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1665,6 +2105,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "820dbf68-6dcb-4c9f-97d5-11f4874e1a86")
+	)
+	(junction
+		(at 494.03 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83853460-9820-4b5b-bcb1-78264bf55da9")
 	)
 	(junction
 		(at 266.7 294.64)
@@ -2883,6 +3329,16 @@
 			(type default)
 		)
 		(uuid "347aff00-0d61-464f-a5fa-a06bb17fa626")
+	)
+	(wire
+		(pts
+			(xy 494.03 213.36) (xy 497.84 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3506d799-3b79-4c6d-8c16-0d3fa2ecd071")
 	)
 	(wire
 		(pts
@@ -4186,6 +4642,16 @@
 	)
 	(wire
 		(pts
+			(xy 494.03 220.98) (xy 494.03 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de92d61-2333-46f2-8c7c-11c6144a49a2")
+	)
+	(wire
+		(pts
 			(xy 245.11 57.15) (xy 245.11 63.5)
 		)
 		(stroke
@@ -4223,6 +4689,16 @@
 			(type default)
 		)
 		(uuid "6ef1b3a2-78a3-417d-8233-b59c6383e366")
+	)
+	(wire
+		(pts
+			(xy 483.87 213.36) (xy 494.03 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f03a529-639d-4ef3-bd96-71dbe63dcf9e")
 	)
 	(wire
 		(pts
@@ -6216,6 +6692,16 @@
 	)
 	(wire
 		(pts
+			(xy 501.65 220.98) (xy 501.65 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37fbffd-193c-4ca8-86ce-c3bcd2b5aa7f")
+	)
+	(wire
+		(pts
 			(xy 88.9 127) (xy 88.9 135.89)
 		)
 		(stroke
@@ -6646,6 +7132,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 213.36) (xy 501.65 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8b4f2f-7b70-4fa8-9ee6-96e9190fada9")
+	)
+	(wire
+		(pts
 			(xy 80.01 198.12) (xy 80.01 201.93)
 		)
 		(stroke
@@ -6653,16 +7149,6 @@
 			(type default)
 		)
 		(uuid "dc962574-d81d-48bf-9acd-8056e0db20cc")
-	)
-	(wire
-		(pts
-			(xy 483.87 213.36) (xy 490.22 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcbf165d-96d9-4e6a-99b9-21eb0c580048")
 	)
 	(wire
 		(pts
@@ -7126,6 +7612,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 209.55) (xy 497.84 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78e0652-eaef-488d-ba3b-ab4165da3bf7")
+	)
+	(wire
+		(pts
 			(xy 135.89 69.85) (xy 135.89 72.39)
 		)
 		(stroke
@@ -7133,6 +7629,16 @@
 			(type default)
 		)
 		(uuid "f81effc4-b0bf-4bfe-84a9-b92e1439c3c7")
+	)
+	(wire
+		(pts
+			(xy 476.25 213.36) (xy 483.87 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f84b22c7-85b6-46d0-a3c5-107fbd6bd3b1")
 	)
 	(wire
 		(pts
@@ -7320,7 +7826,7 @@
 	)
 	(global_label "Rhi_Value"
 		(shape output)
-		(at 490.22 213.36 0)
+		(at 497.84 209.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7330,7 +7836,7 @@
 		)
 		(uuid "1813f521-2638-4147-8476-eedd1a9900fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 501.765 213.2806 0)
+			(at 497.84 197.433 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a3be65-dd18-416d-8b03-0060800d3ab4")
-		(property "Reference" "R?"
+		(property "Reference" "R74"
 			(at 486.41 205.7399 0)
 			(effects
 				(font
@@ -8230,7 +8736,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
-					(reference "R?")
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -9159,7 +9665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "158887b9-5801-4b72-8777-2824f8a067dd")
-		(property "Reference" "RV?"
+		(property "Reference" "RV2"
 			(at 481.33 218.4399 0)
 			(effects
 				(font
@@ -9215,7 +9721,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
-					(reference "RV?")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -9441,6 +9947,75 @@
 			(project "Led_Driver"
 				(path "/8d68b169-ddb7-43b3-887e-9471d5c44fe5"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 501.65 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b3938a2-53aa-4dc2-91cd-e078d899820e")
+		(property "Reference" "C57"
+			(at 505.46 215.0109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 505.46 217.5509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 502.6152 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 501.65 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 501.65 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "becd18e2-f04f-4040-b914-c635a001954b")
+		)
+		(pin "2"
+			(uuid "fb3234d8-f89e-48a5-a9d6-f2927558d422")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -10254,6 +10829,71 @@
 			(project "Led_Driver"
 				(path "/8d68b169-ddb7-43b3-887e-9471d5c44fe5"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 494.03 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33898fd6-174a-48ef-bf2a-1a75601b88fc")
+		(property "Reference" "#PWR027"
+			(at 494.03 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 494.03 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 494.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 494.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 494.03 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f55aef97-c7af-4aca-bcc2-60cd4fc043b6")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11978,6 +12618,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 494.03 217.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d104b00-ce13-487d-af12-34307dca8fc4")
+		(property "Reference" "C56"
+			(at 487.172 215.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 486.664 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 493.0648 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 494.03 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 494.03 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ddfd94e-840d-4dfe-b073-6a13137a303e")
+		)
+		(pin "2"
+			(uuid "c6b03a71-051e-4088-962d-9a61d6a1175c")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 234.95 53.34 90)
 		(unit 1)
@@ -12353,6 +13061,123 @@
 		)
 	)
 	(symbol
+		(lib_id "TEST-1_Y_:TEST-1_Y_")
+		(at 476.25 213.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79cbe155-46b8-494e-9c97-073bfec494fa")
+		(property "Reference" "TP12"
+			(at 466.09 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T_ref"
+			(at 466.09 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:TEST1Y"
+			(at 459.74 118.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 459.74 18.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+			(at 476.25 208.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 459.74 -181.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 459.74 -281.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 459.74 -381.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 459.74 -481.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEST-1(Y)"
+			(at 459.74 -581.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912033d8-ca35-416b-984f-55470e1b94aa")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 64.77 300.99 90)
 		(unit 1)
@@ -12497,6 +13322,71 @@
 			(project "Led_Driver"
 				(path "/8d68b169-ddb7-43b3-887e-9471d5c44fe5"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 501.65 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c3da4b8-7b99-432f-9209-3377f3a0a9b3")
+		(property "Reference" "#PWR028"
+			(at 501.65 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 501.65 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 501.65 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 501.65 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 501.65 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd23c0a4-f6d0-467e-9624-9e8faa9d92bb")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

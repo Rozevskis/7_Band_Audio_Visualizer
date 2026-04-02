@@ -395,419 +395,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DC_Power_Jack_PJ-079BH:PJ-079BH"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -7.7216 7.6962 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PJ-079BH"
-				(at -7.6962 -10.2108 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "CUI_PJ-079BH"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "CUI Inc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "LTR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDART" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PJ-079BH_0_0"
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 6.35) (xy 3.81 6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.175 3.81)
-					(mid -4.4394 5.08)
-					(end -3.175 6.35)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 2.032 1.27) (xy 3.048 1.27) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 6.985) (xy 3.81 6.35)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 6.35) (xy 3.81 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy -3.175 3.81)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.81) (xy 3.81 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 3.175) (xy 5.08 3.175)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 6.985) (xy 3.81 6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 5.08 6.985)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.175) (xy 5.08 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1620,6 +1207,492 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_PTH_Slot"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "CONN-08197"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_PTH_Slot_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_PTH_Slot_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "GNDBREAK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GNDBREAK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.5mm"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.sparkfun.com/assets/b/1/8/d/9/OSTTEXX0104.pdf"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Screw terminal"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "CONN-08288"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ScrewTerminal_1x03_P3.5mm_Horizontal_Black_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -1746,6 +1819,140 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "TEST-1_Y_:TEST-1_Y_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 5.334 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TEST-1_Y_"
+				(at 5.334 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Custom_Footprints:TEST1Y"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Multicomp Pro"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TEST-1(Y)"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TEST-1_Y__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2397,6 +2604,12 @@
 		(uuid "2f2f0a10-cc80-4ee0-b97a-44edbd9a3d7b")
 	)
 	(junction
+		(at 166.37 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "427d8473-f002-46f6-a8e2-958ccacfa47c")
+	)
+	(junction
 		(at 210.82 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2413,6 +2626,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ecd486b-7fc8-4d95-99b3-c0ac936b3760")
+	)
+	(junction
+		(at 49.53 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fac11a4-17a5-456d-9155-57c754b5d8ae")
+	)
+	(junction
+		(at 161.29 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53b8393a-de38-4a6e-9e62-b37aa50f1610")
 	)
 	(junction
 		(at 44.45 121.92)
@@ -2469,12 +2694,6 @@
 		(uuid "8835eec1-687a-4311-bcb2-9f1c2b1ecd92")
 	)
 	(junction
-		(at 175.26 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fa8dd1f-8e52-40bc-b095-2757395830e1")
-	)
-	(junction
 		(at 95.25 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2521,6 +2740,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf2005fe-9ba1-4e55-b03f-d96875d30539")
+	)
+	(junction
+		(at 161.29 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2c4187c-2e2a-4cd3-babc-79acff59cd57")
 	)
 	(junction
 		(at 69.85 99.06)
@@ -2580,16 +2805,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 52.07) (xy 181.61 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f1f3ad-4b99-4684-abff-ffe3a06cbc65")
-	)
-	(wire
-		(pts
 			(xy 83.82 106.68) (xy 83.82 110.49)
 		)
 		(stroke
@@ -2597,6 +2812,16 @@
 			(type default)
 		)
 		(uuid "1524b85c-6303-466d-a5f1-5dfbe5a9b8a7")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19cd9a8f-0a71-4de1-b190-4630ef4d7b94")
 	)
 	(wire
 		(pts
@@ -2610,6 +2835,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 59.69) (xy 161.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ca70223-7590-41a1-aeab-7baa12077dd4")
+	)
+	(wire
+		(pts
 			(xy 120.65 99.06) (xy 120.65 101.6)
 		)
 		(stroke
@@ -2620,6 +2855,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 54.61) (xy 41.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2022c1e9-4134-411b-8806-4c11c98a4854")
+	)
+	(wire
+		(pts
 			(xy 160.02 99.06) (xy 171.45 99.06)
 		)
 		(stroke
@@ -2627,6 +2872,16 @@
 			(type default)
 		)
 		(uuid "28a3d3b1-c40a-4aca-8043-2c1533364bc5")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298ce712-a812-4822-9bab-2df413fbd3a7")
 	)
 	(wire
 		(pts
@@ -2690,6 +2945,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 46.99) (xy 58.42 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8e7736-1f4c-41f4-945c-868a8e3eac90")
+	)
+	(wire
+		(pts
 			(xy 196.85 121.92) (xy 196.85 123.19)
 		)
 		(stroke
@@ -2740,6 +3005,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c5411d-b773-402b-a0e6-64ed7a2dc8b2")
+	)
+	(wire
+		(pts
 			(xy 185.42 121.92) (xy 196.85 121.92)
 		)
 		(stroke
@@ -2767,6 +3042,16 @@
 			(type default)
 		)
 		(uuid "4c76d1c7-8b7b-4453-8383-974edc5ba692")
+	)
+	(wire
+		(pts
+			(xy 49.53 54.61) (xy 49.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d15a544-f71f-4842-b460-a0a821baef87")
 	)
 	(wire
 		(pts
@@ -2817,6 +3102,16 @@
 			(type default)
 		)
 		(uuid "64311507-2749-432c-aa81-3e668b92825c")
+	)
+	(wire
+		(pts
+			(xy 41.91 46.99) (xy 49.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6461e520-5191-4a4d-b1ee-0fb2211814c6")
 	)
 	(wire
 		(pts
@@ -2920,16 +3215,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 54.61) (xy 175.26 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86f3343a-3375-4577-a462-3408a02c7f89")
-	)
-	(wire
-		(pts
 			(xy 210.82 52.07) (xy 210.82 54.61)
 		)
 		(stroke
@@ -2940,13 +3225,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 175.26 57.15)
+			(xy 161.29 57.15) (xy 163.83 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8cf72673-cad9-46fc-8aa6-29d24d61c718")
+		(uuid "8d72137b-662a-4630-a3da-69b39213300c")
 	)
 	(wire
 		(pts
@@ -3007,6 +3292,16 @@
 			(type default)
 		)
 		(uuid "98c4ace2-96ff-47aa-a54f-1c2064ce3200")
+	)
+	(wire
+		(pts
+			(xy 156.21 59.69) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf9e2c2-9318-409b-ba7e-b34fe4c54b73")
 	)
 	(wire
 		(pts
@@ -3080,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 54.61) (xy 175.26 57.15)
+			(xy 156.21 59.69) (xy 156.21 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3160,16 +3455,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 57.15) (xy 175.26 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1eedea8-3a23-4440-9176-6f10c973ad0d")
-	)
-	(wire
-		(pts
 			(xy 146.05 121.92) (xy 146.05 123.19)
 		)
 		(stroke
@@ -3187,6 +3472,16 @@
 			(type default)
 		)
 		(uuid "c73253a7-8042-4455-90af-6b92e94f2495")
+	)
+	(wire
+		(pts
+			(xy 160.02 52.07) (xy 181.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77dfe6a-ca5f-46fb-ae9e-d99cacb25198")
 	)
 	(wire
 		(pts
@@ -3230,6 +3525,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 57.15) (xy 161.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deeaf934-a465-49c1-a63b-d0c3eef2f3cc")
+	)
+	(wire
+		(pts
+			(xy 166.37 54.61) (xy 172.72 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e657b5d1-ba93-42a8-b516-17232c190106")
+	)
+	(wire
+		(pts
 			(xy 69.85 99.06) (xy 69.85 101.6)
 		)
 		(stroke
@@ -3237,6 +3552,16 @@
 			(type default)
 		)
 		(uuid "e73d965f-5c6d-4ccd-a1d7-f5e81bdd25b0")
+	)
+	(wire
+		(pts
+			(xy 58.42 46.99) (xy 72.39 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76ac716-83fe-482f-bd8f-4f83530db7fd")
 	)
 	(wire
 		(pts
@@ -3267,16 +3592,6 @@
 			(type default)
 		)
 		(uuid "edb42800-d20e-4e8a-9eaa-06c87861cced")
-	)
-	(wire
-		(pts
-			(xy 58.42 46.99) (xy 63.5 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1f2c4cd-4c65-4357-bad8-5a510089ad9d")
 	)
 	(wire
 		(pts
@@ -3338,19 +3653,9 @@
 		)
 		(uuid "fdf316ba-0b40-4e02-858c-709d1babf920")
 	)
-	(label "Power"
-		(at 172.72 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b88a7fa-3202-458f-8bd3-9ef04cca81bd")
-	)
 	(global_label "VCC4_5"
 		(shape input)
-		(at 63.5 46.99 0)
+		(at 68.58 46.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3360,7 +3665,7 @@
 		)
 		(uuid "614dab9e-8f79-461e-a807-d7f5e45a0cef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.5004 46.99 0)
+			(at 68.58 36.9896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,6 +4148,125 @@
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
 					(reference "U2")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TEST-1_Y_:TEST-1_Y_")
+		(at 72.39 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1899aec6-d2f4-4c66-a1f0-fe6adc2f1ce7")
+		(property "Reference" "TP11"
+			(at 88.9 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T_mid"
+			(at 88.9 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:TEST1Y"
+			(at 88.9 141.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 241.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+			(at 72.39 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 88.9 441.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 88.9 541.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 88.9 641.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 88.9 741.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEST-1(Y)"
+			(at 88.9 841.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912033d8-ca35-416b-984f-55470e1b94aa")
+		)
+		(instances
+			(project ""
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "TP11")
+					(unit 1)
 				)
 			)
 		)
@@ -4392,6 +4816,71 @@
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
 					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38fb4f2f-8540-4bd5-a5a8-953c390577df")
+		(property "Reference" "#PWR029"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7a17fea-61b0-4244-9b5b-b400257185b3")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4949,6 +5438,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 49.53 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5865c70b-2d03-4496-8404-d87fa50ca059")
+		(property "Reference" "#PWR025"
+			(at 49.53 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c13df87e-a21c-4b71-b6bd-842f7086d752")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+9V")
 		(at 171.45 96.52 0)
 		(unit 1)
@@ -5016,7 +5570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 59.69 0)
+		(at 156.21 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5025,7 +5579,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c8e1b10-19e3-4310-81c8-5f627c23d25e")
 		(property "Reference" "#PWR042"
-			(at 175.26 66.04 0)
+			(at 156.21 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5034,7 +5588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 64.77 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +5596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 59.69 0)
+			(at 156.21 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 59.69 0)
+			(at 156.21 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +5614,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 59.69 0)
+			(at 156.21 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,7 +5779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bbf48df-fb13-4513-8f27-ca49271736d8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR030"
 			(at 220.98 66.04 0)
 			(effects
 				(font
@@ -5274,7 +5828,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
-					(reference "#PWR?")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6173,6 +6727,74 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 41.91 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91624c07-45fe-4d78-865e-04878a0375dc")
+		(property "Reference" "C55"
+			(at 35.052 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 34.544 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 40.9448 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0117dce6-3db5-4f8c-9b3c-b5349fde3722")
+		)
+		(pin "2"
+			(uuid "638cf6f5-bbbd-442d-9ef3-6382aeec0f45")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 134.62 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6505,6 +7127,206 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black")
+		(at 163.83 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b15c1d4d-eae9-446c-90a5-2027fb032b98")
+		(property "Reference" "J6"
+			(at 163.83 69.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.5mm"
+			(at 161.544 67.818 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/b/1/8/d/9/OSTTEXX0104.pdf"
+			(at 151.13 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Screw terminal"
+			(at 148.59 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-08288"
+			(at 156.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a72b318f-00d4-40f1-9ffd-28c4d86e7576")
+		)
+		(pin "2"
+			(uuid "b8aaeea9-ed2c-4a31-883a-9a3d08699442")
+		)
+		(pin "3"
+			(uuid "c0197077-bfae-45c3-8ea0-c0b1b9578536")
+		)
+		(instances
+			(project ""
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TEST-1_Y_:TEST-1_Y_")
+		(at 172.72 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8cb3ac7-8e15-421c-9838-87e0da36d544")
+		(property "Reference" "TP10"
+			(at 176.53 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T_pw"
+			(at 176.53 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:TEST1Y"
+			(at 77.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -22.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+			(at 167.894 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at -222.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at -322.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at -422.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at -522.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEST-1(Y)"
+			(at -622.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912033d8-ca35-416b-984f-55470e1b94aa")
+		)
+		(instances
+			(project ""
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 185.42 102.87 180)
 		(unit 1)
@@ -6648,7 +7470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d775be93-8f51-44f0-afc6-370d2d1dcc1f")
-		(property "Reference" "C?"
+		(property "Reference" "C58"
 			(at 224.79 53.7209 0)
 			(effects
 				(font
@@ -6701,7 +7523,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
-					(reference "C?")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -6779,6 +7601,75 @@
 			(project "Power"
 				(path "/d717faf5-e75e-442f-a937-9cc3d97d027c"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 49.53 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6c84d1-548a-4f88-91cd-b6445138f83f")
+		(property "Reference" "C54"
+			(at 53.34 48.6409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 53.34 51.1809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 50.4952 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "114ddd13-d7ab-4671-8a2e-de468be49f9d")
+		)
+		(pin "2"
+			(uuid "16092132-ddaa-4881-a6f3-c21b35070153")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -7058,114 +7949,145 @@
 		)
 	)
 	(symbol
-		(lib_id "DC_Power_Jack_PJ-079BH:PJ-079BH")
-		(at 157.48 57.15 0)
+		(lib_id "power:GND")
+		(at 41.91 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e49cfd4a-442e-4c4e-a4e7-e091c087c649")
-		(property "Reference" "J2"
-			(at 157.48 44.45 0)
+		(uuid "e50b7f6b-59cd-4cc2-8b39-54d791327efc")
+		(property "Reference" "#PWR026"
+			(at 41.91 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "PJ-079BH"
-			(at 157.48 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CUI_PJ-079BH"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 157.48 57.15 0)
+		(property "Value" "GND"
+			(at 41.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 157.48 57.15 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "MANUFACTURER" "CUI Inc"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "LTR"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDART" "Manufacturer Recommendations"
-			(at 157.48 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "82c5bf7b-52a6-4632-a02d-dfbb06f681ad")
+			(uuid "2d6e4ced-1c37-4289-addf-a571871c3407")
 		)
-		(pin "2"
-			(uuid "5325833b-9060-4f99-b8f4-207ad5e55ba8")
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "85bfa679-b161-43c2-94a0-828e3ef0479b")
+	)
+	(symbol
+		(lib_id "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot")
+		(at 152.4 54.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5ae5c71-dc93-45c2-b45e-ded7025e17a9")
+		(property "Reference" "J7"
+			(at 152.4 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "S1"
-			(uuid "340e5599-68ee-423e-932f-e2f1bf09478b")
+		(property "Value" "Barrel_Jack_PTH_Slot"
+			(at 152.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "S2"
-			(uuid "a376d2d2-c356-48a4-8a76-814948f16b39")
+		(property "Footprint" "PCM_SparkFun-Connector:Barrel_Jack_PTH_Slot"
+			(at 152.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sparkfun.com/datasheets/Prototyping/Barrel-Connector-PJ-202A.pdf"
+			(at 152.4 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 152.4 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-08197"
+			(at 152.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PWR"
+			(uuid "f56a9f4d-a566-449b-8552-1cf0204bf491")
+		)
+		(pin "GNDBREAK"
+			(uuid "4fcc52f1-73ee-453a-a239-834d0b55689b")
+		)
+		(pin "GND"
+			(uuid "360dfc90-dc0f-4df1-9f8e-3c4617822f55")
 		)
 		(instances
 			(project ""
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "Power"
-				(path "/d717faf5-e75e-442f-a937-9cc3d97d027c"
-					(reference "J?")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7637,6 +8559,125 @@
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TEST-1_Y_:TEST-1_Y_")
+		(at 144.78 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f735bd8e-236d-428f-a82f-4ccb83eae166")
+		(property "Reference" "TP13"
+			(at 161.29 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "T_grnd"
+			(at 161.29 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:TEST1Y"
+			(at 161.29 169.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 269.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+			(at 144.78 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 161.29 469.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 161.29 569.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 161.29 669.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 161.29 769.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEST-1(Y)"
+			(at 161.29 869.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ae0b31e-8005-49f6-ba46-5c9f28d22bde")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "TP13")
 					(unit 1)
 				)
 			)

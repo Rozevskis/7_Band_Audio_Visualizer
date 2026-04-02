@@ -1246,6 +1246,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TEST-1_Y_:TEST-1_Y_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 5.334 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TEST-1_Y_"
+				(at 5.334 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Custom_Footprints:TEST1Y"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.5"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Multicomp Pro"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TEST-1(Y)"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TEST-1_Y__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -1399,6 +1533,18 @@
 		(uuid "45dbc51f-1335-4ec0-82d0-9c5d8e8179ca")
 	)
 	(junction
+		(at 191.77 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fefdc71-f575-4001-adda-9cf66c093527")
+	)
+	(junction
+		(at 50.8 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67f3e9c2-957d-4cd4-851b-d3f8b57e7962")
+	)
+	(junction
 		(at 185.42 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1447,6 +1593,16 @@
 			(type default)
 		)
 		(uuid "2d2e27b7-1aee-4e45-b2b2-95b1068b99ea")
+	)
+	(wire
+		(pts
+			(xy 191.77 45.72) (xy 196.85 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c89bdcb-3048-49d7-90b7-513aaeddff75")
 	)
 	(wire
 		(pts
@@ -1570,6 +1726,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 55.88) (xy 50.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3af5153-4311-4ec8-ba5e-b1721453f63a")
+	)
+	(wire
+		(pts
 			(xy 207.01 49.53) (xy 196.85 49.53)
 		)
 		(stroke
@@ -1587,6 +1753,16 @@
 			(type default)
 		)
 		(uuid "b9c9c8a7-f370-4f4a-9103-6b7a6e745eec")
+	)
+	(wire
+		(pts
+			(xy 191.77 45.72) (xy 191.77 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28ea5f7-ed26-48b0-a1d8-5e0e7f40f38e")
 	)
 	(wire
 		(pts
@@ -1630,7 +1806,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 45.72) (xy 196.85 45.72)
+			(xy 185.42 45.72) (xy 191.77 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1710,6 +1886,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vsig"
+		(shape output)
+		(at 50.8 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bc18bd9-3973-491a-a939-7a50df6e29b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.0836 91.3606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2197,6 +2395,124 @@
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/c910a8c7-0bf8-4b44-820c-85a625c5ccef"
 					(reference "U2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TEST-1_Y_:TEST-1_Y_")
+		(at 191.77 67.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4177998e-21d2-4d6a-a217-a28b6a795fc9")
+		(property "Reference" "TP14"
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T_a_out"
+			(at 181.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:TEST1Y"
+			(at 175.26 162.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 262.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+			(at 191.77 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 175.26 462.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 175.26 562.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 175.26 662.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 175.26 762.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEST-1(Y)"
+			(at 175.26 862.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "956276ca-159f-48c5-88e7-50cbe512b271")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/c910a8c7-0bf8-4b44-820c-85a625c5ccef"
+					(reference "TP14")
+					(unit 1)
 				)
 			)
 		)
@@ -3081,6 +3397,242 @@
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/c910a8c7-0bf8-4b44-820c-85a625c5ccef"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TEST-1_Y_:TEST-1_Y_")
+		(at 50.8 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb66f36d-ff0f-4d4f-ac6f-a285c66123ff")
+		(property "Reference" "TP8"
+			(at 40.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T_a_in"
+			(at 40.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:TEST1Y"
+			(at 34.29 173.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 273.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+			(at 50.8 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 34.29 473.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 34.29 573.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 34.29 673.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 34.29 773.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEST-1(Y)"
+			(at 34.29 873.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f017567-ae9d-4c49-b145-daace279e062")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/c910a8c7-0bf8-4b44-820c-85a625c5ccef"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TEST-1_Y_:TEST-1_Y_")
+		(at 50.8 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fddef9c3-24f1-4fd7-9cbf-ae47d84ee3c6")
+		(property "Reference" "TP9"
+			(at 40.64 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "T_sig"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom_Footprints:TEST1Y"
+			(at 34.29 186.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 286.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MULTICOMP - TEST-1(Y) - PCB Test Point, Pin, Multicomp Colour Coded Through-hole PCB Test Pins, Yellow, Through Hole Mount"
+			(at 50.8 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 34.29 486.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 34.29 586.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 34.29 686.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Multicomp Pro"
+			(at 34.29 786.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TEST-1(Y)"
+			(at 34.29 886.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f017567-ae9d-4c49-b145-daace279e063")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/c910a8c7-0bf8-4b44-820c-85a625c5ccef"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
