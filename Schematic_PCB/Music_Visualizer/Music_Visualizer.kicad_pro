@@ -1369,7 +1369,7 @@
           "show": false
         }
       ],
-      "filter_string": "r",
+      "filter_string": "c",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",

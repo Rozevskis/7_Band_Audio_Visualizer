@@ -1018,7 +1018,7 @@
 		)
 		(uuid "5c3e5a69-e4b3-4d15-b4bb-90a06fba7d70")
 	)
-	(text "Todo:\n	- replace el. cap. footprint\n\n\nDone\n\n- replace all filters with standertised capacitors ( maybe capacitor arrays)\n- replace footprints\n--replace -5v with voltage divider and unity gain amp-"
+	(text "Todo:\n\n\nDone\n\n- replace el. cap. footprint\n- replace all filters with standertised capacitors ( maybe capacitor arrays)\n- replace footprints\n--replace -5v with voltage divider and unity gain amp-"
 		(exclude_from_sim no)
 		(at 182.626 359.664 0)
 		(effects
@@ -7724,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 213.36 183.1848 0)
 			(effects
 				(font
@@ -9852,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 213.36 113.3348 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 224.79 46.0248 0)
 			(effects
 				(font
