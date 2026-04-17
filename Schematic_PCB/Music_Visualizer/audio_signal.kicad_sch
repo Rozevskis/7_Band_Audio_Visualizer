@@ -1812,6 +1812,12 @@
 		(uuid "2f976694-eaf7-4a07-ad95-e7000bc81fab")
 	)
 	(junction
+		(at 49.53 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43755476-b92f-4606-9d6d-8740d2c74caf")
+	)
+	(junction
 		(at 105.41 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1836,6 +1842,12 @@
 		(uuid "7ada5e47-e0fe-43a2-9969-c0890cb1a69a")
 	)
 	(junction
+		(at 207.01 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d892635-faaf-4d04-853d-2a78d8df3d10")
+	)
+	(junction
 		(at 100.33 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1846,6 +1858,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5477073-0023-4a28-8889-114724e270f4")
+	)
+	(junction
+		(at 207.01 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc52892b-abab-427b-b813-04500779dec3")
 	)
 	(junction
 		(at 144.78 128.27)
@@ -1901,6 +1919,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 52.07) (xy 52.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2ba7d8-9607-4e33-b95c-f4985cf7acaf")
+	)
+	(wire
+		(pts
 			(xy 207.01 44.45) (xy 207.01 46.99)
 		)
 		(stroke
@@ -1921,13 +1949,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 49.53) (xy 59.69 49.53)
+			(xy 49.53 54.61) (xy 46.99 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41700904-900a-464a-b4a3-baa99e95ba70")
+		(uuid "6ec9054b-4163-48f4-84c4-4403fcc3df94")
 	)
 	(wire
 		(pts
@@ -2041,6 +2069,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 49.53) (xy 207.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7608324-5e15-4174-ae77-c71e36f9e196")
+	)
+	(wire
+		(pts
 			(xy 100.33 125.73) (xy 105.41 125.73)
 		)
 		(stroke
@@ -2048,6 +2086,16 @@
 			(type default)
 		)
 		(uuid "b9c9c8a7-f370-4f4a-9103-6b7a6e745eec")
+	)
+	(wire
+		(pts
+			(xy 49.53 49.53) (xy 49.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be372310-7b48-4264-b7f3-08c3c8ee4c85")
 	)
 	(wire
 		(pts
@@ -2138,6 +2186,16 @@
 			(type default)
 		)
 		(uuid "f1a1e5ae-b0b9-4653-b76e-0a927612d270")
+	)
+	(wire
+		(pts
+			(xy 49.53 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f468a689-f75e-48b1-bef8-00455b379560")
 	)
 	(wire
 		(pts
@@ -2634,7 +2692,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 138.43 128.27 270)
+		(at 138.43 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2643,7 +2701,7 @@
 		(fields_autoplaced yes)
 		(uuid "36081cfa-a3d5-46cd-9d8c-171bd9117206")
 		(property "Reference" "C8"
-			(at 139.319 120.65 90)
+			(at 137.541 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2709,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 139.319 123.19 90)
+			(at 137.541 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2717,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 134.62 129.2352 0)
+			(at 142.24 127.3048 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,9 +3986,9 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c305420a-d833-4dbe-81bd-7a62517d4b01")
 		(property "Reference" "J1"
@@ -4151,7 +4209,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 52.07 52.07 0)
+		(at 54.61 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4159,7 +4217,7 @@
 		(dnp no)
 		(uuid "e129812e-54c7-4cd3-b0df-4b1235210535")
 		(property "Reference" "J3"
-			(at 53.3401 57.15 90)
+			(at 55.8801 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4226,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 55.372 43.942 90)
+			(at 57.912 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4235,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal"
-			(at 52.07 52.07 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 52.07 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4253,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 52.07 0)
+			(at 54.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4261,7 @@
 			)
 		)
 		(property "STANDART" ""
-			(at 52.07 52.07 90)
+			(at 54.61 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4231,9 +4289,9 @@
 		(at 41.91 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e162dd2f-c304-4168-9f76-e9f0114e6039")
 		(property "Reference" "J4"

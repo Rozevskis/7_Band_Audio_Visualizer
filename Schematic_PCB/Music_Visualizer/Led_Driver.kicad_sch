@@ -8601,15 +8601,15 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 80.01 254 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "01a3be65-dd18-416d-8b03-0060800d3ab3")
 		(property "Reference" "R78"
-			(at 82.55 252.7299 0)
+			(at 77.47 252.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,7 +8618,7 @@
 			)
 		)
 		(property "Value" "680"
-			(at 82.55 255.2699 0)
+			(at 77.47 255.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +8627,7 @@
 			)
 		)
 		(property "Footprint" "Custom_Footprints:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 78.232 254 90)
+			(at 81.788 254 90)
 			(effects
 				(font
 					(size 1.27 1.27)
