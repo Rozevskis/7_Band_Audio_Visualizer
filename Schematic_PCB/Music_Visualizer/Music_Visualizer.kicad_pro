@@ -1219,6 +1219,14 @@
       {
         "netclass": "dB LED",
         "pattern": "Net-(D9-Pad1)"
+      },
+      {
+        "netclass": "9V Power",
+        "pattern": "Net-(J6-+)"
+      },
+      {
+        "netclass": "9V Power",
+        "pattern": "Net-(Q1-S)"
       }
     ]
   },
@@ -1402,12 +1410,12 @@
           "show": false
         }
       ],
-      "filter_string": "c",
+      "filter_string": "h",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,

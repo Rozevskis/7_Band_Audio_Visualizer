@@ -1880,12 +1880,12 @@
 	)
 	(text "LED Brightness Control\n"
 		(exclude_from_sim no)
-		(at 321.31 201.93 0)
+		(at 382.27 201.93 0)
 		(effects
 			(font
 				(size 5 5)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0ba44c3b-28d4-4b5a-81bc-74e79da6de54")
 	)
@@ -6430,7 +6430,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 214.63) (xy 358.14 217.17)
+			(xy 345.44 214.63) (xy 345.44 217.17)
 		)
 		(stroke
 			(width 0)
@@ -7660,7 +7660,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 210.82) (xy 369.57 210.82)
+			(xy 356.87 210.82) (xy 349.25 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8070,7 +8070,7 @@
 	)
 	(global_label "LED_Brightness_Control"
 		(shape output)
-		(at 369.57 210.82 0)
+		(at 356.87 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8080,7 +8080,7 @@
 		)
 		(uuid "2264cb5c-4038-4b53-9ec0-3bc6b3a89c26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 394.2383 210.7406 0)
+			(at 381.5383 210.7406 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,7 +9076,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 287.02 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +9272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 214.63 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9370,7 +9370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 87.63 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -9632,8 +9632,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 358.14 210.82 0)
-		(mirror x)
+		(at 345.44 210.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9644,7 +9643,7 @@
 		(fields_autoplaced yes)
 		(uuid "09eaa136-75d0-48fe-a03b-a1369df77003")
 		(property "Reference" "RV1"
-			(at 355.6 209.5499 0)
+			(at 342.9 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9655,7 +9654,7 @@
 			)
 		)
 		(property "Value" "1k_LED_Brightness_Pot"
-			(at 355.6 212.0899 0)
+			(at 342.9 212.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9666,7 +9665,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
-			(at 358.14 210.82 0)
+			(at 345.44 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9677,7 +9676,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.ca/datasheet/2/54/ptv09-777818.pdf"
-			(at 358.14 210.82 0)
+			(at 345.44 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9688,7 +9687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 358.14 210.82 0)
+			(at 345.44 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9698,7 +9697,7 @@
 			)
 		)
 		(property "STANDART" ""
-			(at 358.14 210.82 0)
+			(at 345.44 210.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,7 +9931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 480.06 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10031,7 +10030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 92.71 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10129,7 +10128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 449.58 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10421,7 +10420,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10519,7 +10518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 488.95 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -10617,7 +10616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 502.6152 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -10709,7 +10708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 285.75 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10890,7 +10889,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 113.03 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11086,7 +11085,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 123.19 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -11184,7 +11183,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 74.93 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -11463,7 +11462,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 417.83 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -11561,7 +11560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 105.41 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -11819,7 +11818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 44.45 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -11917,7 +11916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 236.22 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -12347,7 +12346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 143.51 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12496,7 +12495,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 358.14 217.17 0)
+		(at 345.44 217.17 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12507,7 +12507,7 @@
 		(fields_autoplaced yes)
 		(uuid "593a0c48-b2ee-449d-a3d3-4605ed730d82")
 		(property "Reference" "#PWR084"
-			(at 358.14 223.52 0)
+			(at 345.44 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12518,7 +12518,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 358.14 222.25 0)
+			(at 345.44 222.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12528,7 +12528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 217.17 0)
+			(at 345.44 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12539,7 +12539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 217.17 0)
+			(at 345.44 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12550,7 +12550,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 358.14 217.17 0)
+			(at 345.44 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12611,7 +12611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 458.47 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -12786,7 +12786,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 398.78 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12884,7 +12884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 93.98 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -12982,7 +12982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 433.07 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -13178,7 +13178,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 265.43 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13276,7 +13276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 407.67 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -13375,7 +13375,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 255.27 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13473,7 +13473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 224.79 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -13654,7 +13654,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 88.9 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -13947,7 +13947,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 493.0648 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -14039,7 +14039,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 234.95 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14137,7 +14137,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 135.89 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -14235,7 +14235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 427.99 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -14333,7 +14333,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 468.63 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -14431,7 +14431,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 448.31 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -14507,7 +14507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79cbe155-46b8-494e-9c97-073bfec494fa")
-		(property "Reference" "TP12"
+		(property "Reference" "T_ref1"
 			(at 466.09 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14527,7 +14527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 459.74 118.44 0)
 			(hide yes)
 			(show_name no)
@@ -14639,7 +14639,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/56ed3a67-eed8-4688-8767-d6bf63bd87ca"
-					(reference "TP12")
+					(reference "T_ref1")
 					(unit 1)
 				)
 			)
@@ -14679,7 +14679,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 64.77 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -14777,7 +14777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14952,7 +14952,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 260.35 336.55 0)
 			(hide yes)
 			(show_name no)
@@ -15148,7 +15148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 53.34 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15246,7 +15246,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 397.51 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -15344,7 +15344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 72.39 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15525,7 +15525,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 62.23 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -15706,7 +15706,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 63.5 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -15804,7 +15804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 215.9 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -15902,7 +15902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 134.62 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -16000,7 +16000,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 115.57 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -16098,7 +16098,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 388.62 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16196,7 +16196,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 478.79 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -16294,7 +16294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 246.38 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -16393,7 +16393,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 83.82 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -16574,7 +16574,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 125.73 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -16755,7 +16755,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 297.18 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -16853,7 +16853,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 307.34 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -16951,7 +16951,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 95.25 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -17049,7 +17049,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 102.87 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -17147,7 +17147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 226.06 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -17245,7 +17245,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 266.7 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -17343,7 +17343,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 259.08 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -17539,7 +17539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 306.07 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17637,7 +17637,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 104.14 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -17736,7 +17736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 85.09 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -17834,7 +17834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 469.9 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17932,7 +17932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 439.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18030,7 +18030,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 275.59 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18128,7 +18128,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 408.94 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18226,7 +18226,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 124.46 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -18324,7 +18324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 295.91 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18506,7 +18506,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 438.15 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -18604,7 +18604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 441.96 335.28 0)
 			(hide yes)
 			(show_name no)
@@ -18884,7 +18884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 256.54 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -19066,7 +19066,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 429.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19164,7 +19164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 133.35 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19524,7 +19524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 52.07 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19622,7 +19622,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 459.74 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19720,7 +19720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 419.1 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19818,7 +19818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Yellow"
 			(at 114.3 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -19916,7 +19916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 276.86 302.26 0)
 			(hide yes)
 			(show_name no)
@@ -20014,7 +20014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm"
 			(at 96.52 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -20210,7 +20210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 73.66 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -20308,7 +20308,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 54.61 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -20406,7 +20406,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Green"
 			(at 43.18 185.42 0)
 			(hide yes)
 			(show_name no)

@@ -7258,7 +7258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 389.89 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -7349,7 +7349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 304.8 336.22 0)
 			(hide yes)
 			(show_name no)
@@ -7658,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 77.47 269.5448 0)
 			(hide yes)
 			(show_name no)
@@ -7932,7 +7932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 126.0348 0)
 			(hide yes)
 			(show_name no)
@@ -8022,7 +8022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.36 183.1848 0)
 			(hide yes)
 			(show_name no)
@@ -8202,7 +8202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 438.15 200.9648 0)
 			(hide yes)
 			(show_name no)
@@ -8472,7 +8472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 336.55 200.9648 0)
 			(hide yes)
 			(show_name no)
@@ -9902,7 +9902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 195.8848 0)
 			(hide yes)
 			(show_name no)
@@ -10243,7 +10243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 74.93 195.8848 0)
 			(hide yes)
 			(show_name no)
@@ -10332,7 +10332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 389.89 188.2648 0)
 			(hide yes)
 			(show_name no)
@@ -10422,7 +10422,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 74.93 126.0348 0)
 			(hide yes)
 			(show_name no)
@@ -10512,7 +10512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.36 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -11171,7 +11171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 337.82 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -11262,7 +11262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Custom_Footprints:Apgriezts_MountingHole_2.2mm_M2"
 			(at 129.54 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -11756,7 +11756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 336.55 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -11936,7 +11936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 74.93 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -12208,7 +12208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 269.5448 0)
 			(hide yes)
 			(show_name no)
@@ -12733,7 +12733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 217.17 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -12823,7 +12823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 474.98 114.6048 0)
 			(hide yes)
 			(show_name no)
@@ -14280,7 +14280,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 128.27 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -14552,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 179.07 269.5448 0)
 			(hide yes)
 			(show_name no)
@@ -14641,7 +14641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 128.27 183.1848 0)
 			(hide yes)
 			(show_name no)
@@ -14730,7 +14730,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 179.07 256.8448 0)
 			(hide yes)
 			(show_name no)
@@ -14819,7 +14819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 391.16 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -15002,7 +15002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Custom_Footprints:Apgriezts_MountingHole_2.2mm_M2"
 			(at 129.54 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -15164,7 +15164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 304.8 407.34 0)
 			(hide yes)
 			(show_name no)
@@ -15315,7 +15315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 304.8 395.91 0)
 			(hide yes)
 			(show_name no)
@@ -15557,7 +15557,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 474.98 188.2648 0)
 			(hide yes)
 			(show_name no)
@@ -15998,7 +15998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 391.16 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -16088,7 +16088,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.96 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -16269,7 +16269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.96 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -16518,7 +16518,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 183.1848 0)
 			(hide yes)
 			(show_name no)
@@ -16608,7 +16608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 128.27 195.8848 0)
 			(hide yes)
 			(show_name no)
@@ -16950,7 +16950,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 304.8 359.08 0)
 			(hide yes)
 			(show_name no)
@@ -17351,7 +17351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.7 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -17441,7 +17441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 215.9 256.8448 0)
 			(hide yes)
 			(show_name no)
@@ -17777,7 +17777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 438.15 127.3048 0)
 			(hide yes)
 			(show_name no)
@@ -17867,7 +17867,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 86.36 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -18322,7 +18322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 139.7 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -19188,7 +19188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Custom_Footprints:Apgriezts_MountingHole_2.2mm_M2"
 			(at 149.86 353.06 0)
 			(hide yes)
 			(show_name no)
@@ -19362,7 +19362,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 337.82 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -19451,7 +19451,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 176.53 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -19816,7 +19816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 439.42 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -20180,7 +20180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 476.25 39.6748 0)
 			(hide yes)
 			(show_name no)
@@ -20359,7 +20359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.81 256.8448 0)
 			(hide yes)
 			(show_name no)
@@ -20449,7 +20449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 128.27 126.0348 0)
 			(hide yes)
 			(show_name no)
@@ -20949,7 +20949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 304.8 347.65 0)
 			(hide yes)
 			(show_name no)
@@ -21259,7 +21259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 77.47 256.8448 0)
 			(hide yes)
 			(show_name no)
@@ -21351,7 +21351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+		(property "Footprint" "Custom_Footprints:Apgriezts_MountingHole_2.2mm_M2"
 			(at 149.86 359.41 0)
 			(hide yes)
 			(show_name no)
@@ -21435,7 +21435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 74.93 183.1848 0)
 			(hide yes)
 			(show_name no)
@@ -21525,7 +21525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 86.36 46.0248 0)
 			(hide yes)
 			(show_name no)
@@ -21615,7 +21615,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 336.55 188.2648 0)
 			(hide yes)
 			(show_name no)
@@ -22580,7 +22580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 389.89 200.9648 0)
 			(hide yes)
 			(show_name no)
@@ -22671,7 +22671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 304.8 371.78 0)
 			(hide yes)
 			(show_name no)
@@ -22820,7 +22820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 438.15 114.6048 0)
 			(hide yes)
 			(show_name no)
@@ -23001,7 +23001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 389.89 114.6048 0)
 			(hide yes)
 			(show_name no)
@@ -23091,7 +23091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 336.55 114.6048 0)
 			(hide yes)
 			(show_name no)
@@ -23182,7 +23182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 304.8 383.21 0)
 			(hide yes)
 			(show_name no)
@@ -23492,7 +23492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 439.42 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -24108,7 +24108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 438.15 188.2648 0)
 			(hide yes)
 			(show_name no)

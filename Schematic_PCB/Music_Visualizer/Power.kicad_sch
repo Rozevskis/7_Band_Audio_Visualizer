@@ -745,6 +745,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Q_PMOS_DGS"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_DGS"
+				(at 5.08 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/gate/source"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_DGS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_DGS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1249,7 +1550,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
+		(symbol "PCM_SparkFun-Connector:Conn_01x02_JST_P2.0mm_Horizontal_SMD"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1269,8 +1573,8 @@
 					)
 				)
 			)
-			(property "Value" "3.5mm"
-				(at 0 -5.08 0)
+			(property "Value" "JST_2mm_LiPo"
+				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1279,19 +1583,8 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/b/1/8/d/9/OSTTEXX0104.pdf"
-				(at 0 -12.7 0)
+			(property "Footprint" "PCM_SparkFun-Connector:JST_1x02_P2.0mm_Horizontal_SMD"
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1301,8 +1594,8 @@
 					)
 				)
 			)
-			(property "Description" "Screw terminal"
-				(at 0 -15.24 0)
+			(property "Datasheet" ""
+				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1312,8 +1605,8 @@
 					)
 				)
 			)
-			(property "PROD_ID" "CONN-08288"
-				(at 0 -7.62 0)
+			(property "Description" "2 Pin 2mm JST Connector"
+				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1323,7 +1616,18 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SparkFun screw terminal"
+			(property "PROD_ID" "CONN-11443"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SparkFun connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1334,7 +1638,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1345,10 +1649,12 @@
 					)
 				)
 			)
-			(symbol "ScrewTerminal_1x03_P3.5mm_Horizontal_Black_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
+			(symbol "Conn_01x02_JST_P2.0mm_Horizontal_SMD_1_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -3.81 1.27) (xy -3.81 2.54) (xy 3.81 2.54) (xy 3.81 -5.08) (xy -3.81 -5.08)
+						(xy -3.81 -3.81) (xy -1.27 -3.81) (xy -1.27 1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1357,105 +1663,22 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
+				(rectangle
+					(start 0.635 2.54)
+					(end 1.905 1.905)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
+				(rectangle
+					(start 0.635 -4.445)
+					(end 1.905 -5.08)
 					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1463,9 +1686,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
-					(name "Pin_1"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1483,7 +1706,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1498,17 +1721,37 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
+				(pin no_connect line
+					(at 1.27 -3.81 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "NC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 1.27 1.27 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "NC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2405,7 +2648,7 @@
 		(at 172.72 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "106f87bc-f6f5-4277-afb0-030c4e25fedc")
+		(uuid "38101cd9-ae62-46ae-9924-e4c281d236da")
 	)
 	(junction
 		(at 149.86 100.33)
@@ -2424,12 +2667,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fac11a4-17a5-456d-9155-57c754b5d8ae")
-	)
-	(junction
-		(at 161.29 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53b8393a-de38-4a6e-9e62-b37aa50f1610")
 	)
 	(junction
 		(at 97.79 101.6)
@@ -2492,20 +2729,16 @@
 		(uuid "d0f789a4-0d3a-4eb4-8020-e90e68789218")
 	)
 	(junction
-		(at 161.29 59.69)
+		(at 163.83 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2c4187c-2e2a-4cd3-babc-79acff59cd57")
+		(uuid "d6657d09-92d6-4b0a-ab75-7114c7544f30")
 	)
-	(wire
-		(pts
-			(xy 172.72 52.07) (xy 196.85 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01176439-fe20-4b43-aef3-61dcb548fe9f")
+	(junction
+		(at 210.82 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12de0e0-6236-46ea-ad29-babadbecd0cb")
 	)
 	(wire
 		(pts
@@ -2549,16 +2782,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 57.15) (xy 163.83 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19cd9a8f-0a71-4de1-b190-4630ef4d7b94")
-	)
-	(wire
-		(pts
 			(xy 58.42 49.53) (xy 58.42 46.99)
 		)
 		(stroke
@@ -2566,16 +2789,6 @@
 			(type default)
 		)
 		(uuid "1a18707f-a78a-4898-8493-c2dff25359b6")
-	)
-	(wire
-		(pts
-			(xy 161.29 59.69) (xy 161.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca70223-7590-41a1-aeab-7baa12077dd4")
 	)
 	(wire
 		(pts
@@ -2596,6 +2809,16 @@
 			(type default)
 		)
 		(uuid "27b57ac9-4abb-4019-9af0-77e0efc47fca")
+	)
+	(wire
+		(pts
+			(xy 193.04 52.07) (xy 196.85 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c1780f-2ec7-4a96-a7a3-eacfea630292")
 	)
 	(wire
 		(pts
@@ -2639,13 +2862,33 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 54.61) (xy 138.43 54.61)
+			(xy 172.72 52.07) (xy 182.88 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45c5411d-b773-402b-a0e6-64ed7a2dc8b2")
+		(uuid "415e37ca-62d0-4a75-a968-cc2e9c2e598a")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 210.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac972c2-11b7-4e51-a8c1-e7bc104f05a7")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca76588-9ddb-4e48-8d6e-c1f5739d8c47")
 	)
 	(wire
 		(pts
@@ -2749,6 +2992,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 62.23) (xy 210.82 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8472864c-c03e-4387-8d88-fa96f5c250c2")
+	)
+	(wire
+		(pts
 			(xy 210.82 52.07) (xy 210.82 54.61)
 		)
 		(stroke
@@ -2759,7 +3012,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 57.15) (xy 163.83 57.15)
+			(xy 152.4 57.15) (xy 163.83 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2819,7 +3072,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 59.69) (xy 161.29 59.69)
+			(xy 156.21 59.69) (xy 163.83 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2886,16 +3139,6 @@
 			(type default)
 		)
 		(uuid "c52cd157-99dc-4cd1-b179-b7fbe4442afc")
-	)
-	(wire
-		(pts
-			(xy 152.4 52.07) (xy 138.43 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c77dfe6a-ca5f-46fb-ae9e-d99cacb25198")
 	)
 	(wire
 		(pts
@@ -2979,16 +3222,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 57.15) (xy 161.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deeaf934-a465-49c1-a63b-d0c3eef2f3cc")
-	)
-	(wire
-		(pts
 			(xy 149.86 95.25) (xy 149.86 100.33)
 		)
 		(stroke
@@ -2996,6 +3229,16 @@
 			(type default)
 		)
 		(uuid "df4c3011-a453-410b-81ee-246bc981bc1f")
+	)
+	(wire
+		(pts
+			(xy 187.96 59.69) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0857624-f11b-406a-8fbb-ed835b37b239")
 	)
 	(wire
 		(pts
@@ -3016,16 +3259,6 @@
 			(type default)
 		)
 		(uuid "fd0eb6fc-a760-4076-b647-4ab9b237ad9d")
-	)
-	(wire
-		(pts
-			(xy 210.82 62.23) (xy 210.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fde1bb0a-28d2-49a9-8bf3-58062ea36ddc")
 	)
 	(global_label "VCC4_5"
 		(shape input)
@@ -3414,7 +3647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1899aec6-d2f4-4c66-a1f0-fe6adc2f1ce7")
-		(property "Reference" "TP11"
+		(property "Reference" "T_mid1"
 			(at 104.14 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3436,7 +3669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 104.14 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -3548,7 +3781,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
-					(reference "TP11")
+					(reference "T_mid1")
 					(unit 1)
 				)
 			)
@@ -3841,7 +4074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 75.8952 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4089,7 +4322,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
+		(property "Footprint" "PCM_SparkFun-LED:LED_1206_3216Metric_Red"
 			(at 210.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4186,7 +4419,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 57.4548 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5125,6 +5358,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_PMOS_DGS")
+		(at 187.96 54.61 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "647f4a27-406b-46c6-b771-745c5104f8a0")
+		(property "Reference" "Q1"
+			(at 187.96 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DMP2123LQ-7"
+			(at 187.96 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 185.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 187.96 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f25a3e78-8d19-40a0-b4ef-8d4b97c6a40a")
+		)
+		(pin "2"
+			(uuid "476e73a8-0dcc-4034-a2f6-3d4479e0dfe6")
+		)
+		(pin "3"
+			(uuid "4cc78cc6-96aa-4353-8aa3-d415ac1aee8f")
+		)
+		(instances
+			(project "Music_Visualizer"
+				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 127 105.41 180)
 		(unit 1)
@@ -5157,7 +5471,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 126.0348 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5577,7 +5891,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 143.8148 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -5983,7 +6297,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.9448 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6074,7 +6388,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 38.4048 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6527,8 +6841,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black")
-		(at 163.83 64.77 270)
+		(lib_id "PCM_SparkFun-Connector:Conn_01x02_JST_P2.0mm_Horizontal_SMD")
+		(at 166.37 64.77 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6538,7 +6852,7 @@
 		(dnp no)
 		(uuid "b15c1d4d-eae9-446c-90a5-2027fb032b98")
 		(property "Reference" "J6"
-			(at 163.83 69.596 90)
+			(at 164.592 71.374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6549,7 +6863,7 @@
 			)
 		)
 		(property "Value" "3.5mm"
-			(at 161.544 67.818 90)
+			(at 162.306 69.596 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6559,8 +6873,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x03_P3.5mm_Horizontal_Black"
-			(at 153.67 64.77 0)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 154.94 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6571,7 +6885,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/b/1/8/d/9/OSTTEXX0104.pdf"
-			(at 151.13 64.77 0)
+			(at 152.4 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6581,8 +6895,8 @@
 				)
 			)
 		)
-		(property "Description" "Screw terminal"
-			(at 148.59 64.77 0)
+		(property "Description" "2 Pin 2mm JST Connector"
+			(at 147.32 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6592,8 +6906,8 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CONN-08288"
-			(at 156.21 64.77 0)
+		(property "PROD_ID" "CONN-11443"
+			(at 149.86 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6604,7 +6918,7 @@
 			)
 		)
 		(property "STANDART" ""
-			(at 163.83 64.77 90)
+			(at 166.37 64.77 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6620,8 +6934,11 @@
 		(pin "2"
 			(uuid "b8aaeea9-ed2c-4a31-883a-9a3d08699442")
 		)
-		(pin "3"
+		(pin "NC2"
 			(uuid "c0197077-bfae-45c3-8ea0-c0b1b9578536")
+		)
+		(pin "NC1"
+			(uuid "7da4798a-47bf-4469-9102-fc5447e00e22")
 		)
 		(instances
 			(project "Music_Visualizer"
@@ -6802,7 +7119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8cb3ac7-8e15-421c-9838-87e0da36d544")
-		(property "Reference" "TP10"
+		(property "Reference" "T_pw1"
 			(at 176.53 63.4999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6824,7 +7141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 77.8 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6936,7 +7253,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
-					(reference "TP10")
+					(reference "T_pw1")
 					(unit 1)
 				)
 			)
@@ -7375,7 +7692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 91.7448 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7466,7 +7783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 161.5948 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -7821,7 +8138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
 			(at 221.9452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -8747,7 +9064,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Custom_Footprints:custom_C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 109.5248 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8900,7 +9217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f735bd8e-236d-428f-a82f-4ccb83eae166")
-		(property "Reference" "TP13"
+		(property "Reference" "T_gnd1"
 			(at 161.29 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8911,7 +9228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "T_grnd"
+		(property "Value" "T_gnd"
 			(at 161.29 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8922,7 +9239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Custom_Footprints:TEST1Y"
+		(property "Footprint" "Custom_Footprints:NEW_2_TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded"
 			(at 161.29 169.85 0)
 			(hide yes)
 			(show_name no)
@@ -9034,7 +9351,7 @@
 		(instances
 			(project "Music_Visualizer"
 				(path "/236ff8a0-79ed-4eaf-ae36-90444797fa8d/d77592bc-5812-4255-9ac4-28fcc93efec5"
-					(reference "TP13")
+					(reference "T_gnd1")
 					(unit 1)
 				)
 			)
