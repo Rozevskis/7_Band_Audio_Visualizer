@@ -61,16 +61,37 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|88805000|54597500|ebb570aa-1421-4033-9f7e-7039c38a75e2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|95325000|61325000|9ca99697-a788-417f-afeb-e4661e5b36d7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|96105000|54245000|c6649c63-87e8-4d17-a403-06906b144b95|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|40825000|53325000|c92a8282-7426-451a-8ca6-9838435d0359|29f548d5-cd31-418d-8b9b-c4229e4792d9",
+          ""
+        ],
+        [
+          "silk_over_copper|40825000|53890215|1c5894aa-6721-419d-a9f6-22724dbb9683|c92a8282-7426-451a-8ca6-9838435d0359",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "ignore",
-        "connection_width": "warning",
+        "clearance": "error",
+        "connection_width": "error",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "error",
         "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -79,7 +100,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
@@ -97,18 +118,18 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
-        "shorting_items": "ignore",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
+        "silk_edge_clearance": "error",
+        "silk_over_copper": "error",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "ignore",
@@ -124,7 +145,7 @@
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
