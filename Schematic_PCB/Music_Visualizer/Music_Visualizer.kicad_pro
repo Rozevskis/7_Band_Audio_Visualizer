@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.56,
-          "height": 3.36,
-          "width": 5.36
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -67,10 +67,6 @@
           ""
         ],
         [
-          "lib_footprint_mismatch|95325000|61325000|9ca99697-a788-417f-afeb-e4661e5b36d7|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "lib_footprint_mismatch|96105000|54245000|c6649c63-87e8-4d17-a403-06906b144b95|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -80,6 +76,22 @@
         ],
         [
           "silk_over_copper|40772500|53890215|1c5894aa-6721-419d-a9f6-22724dbb9683|c92a8282-7426-451a-8ca6-9838435d0359",
+          ""
+        ],
+        [
+          "silk_overlap|101787522|62738933|0663660e-0706-463b-951f-89312f3b9531|95149b6b-a51c-4530-bd0e-3fa7cedac64f",
+          ""
+        ],
+        [
+          "silk_overlap|36635000|57816833|60e40d61-3a6a-49fc-b769-32618079fed8|a044ce2a-9a7b-435e-a827-901ec21bedd4",
+          ""
+        ],
+        [
+          "silk_overlap|40772500|53890215|0a816fb9-c14a-484f-b4e6-97c3dfe86f41|1c5894aa-6721-419d-a9f6-22724dbb9683",
+          ""
+        ],
+        [
+          "silk_overlap|86066833|15566833|9f5855e5-7aec-45c6-ad9e-8715270c2ddf|e3b90a0b-2c5a-4bfd-bece-f318e620e0c3",
           ""
         ]
       ],
@@ -1256,7 +1268,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../JLCPCB_Manufacture/",
       "pos_files": "",
       "specctra_dsn": "Music_Visualizer.dsn",
       "step": "",
@@ -1497,7 +1509,7 @@
         "uuid": "236ff8a0-79ed-4eaf-ae36-90444797fa8d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW3,#PWR43",
     "variants": []
   },
   "sheets": [
