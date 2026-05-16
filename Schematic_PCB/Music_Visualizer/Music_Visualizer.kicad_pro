@@ -1443,12 +1443,12 @@
           "show": false
         }
       ],
-      "filter_string": "h",
+      "filter_string": "c",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1509,7 +1509,7 @@
         "uuid": "236ff8a0-79ed-4eaf-ae36-90444797fa8d"
       }
     ],
-    "used_designators": "SW3,#PWR43",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

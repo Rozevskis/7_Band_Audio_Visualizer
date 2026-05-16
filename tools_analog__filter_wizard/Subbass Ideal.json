@@ -1,0 +1,82 @@
+{
+	"Name": "Subbass Ideal",
+	"Description": "Subbass ideal filter",
+	"Tool": "FW",
+	"Version": "1.3",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components",
+			"tolerances",
+			"next-steps"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 46,
+			"stopbandAttenuation": -20,
+			"stopbandFrequency": 83,
+			"filterResponseValue": 0.5,
+			"filterResponseSlider": "21",
+			"centerFrequency": 34.6
+		},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": -5,
+			"optimization": "RecommendedSpecificComponents",
+			"optimizationPreference": "specific",
+			"compensateForGbw": false,
+			"preferredAlgorithms": {
+				"sallenKey|lowPass": "lowpassV2"
+			},
+			"referenceVoltage": 0,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 128,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "AD8657"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 128,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "AD8657"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 128,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "AD8657"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				2,
+				1
+			]
+		},
+		"tolerances": {
+			"resistorTolerance": "1%",
+			"capacitorTolerance": "5%",
+			"inductorTolerance": "5%",
+			"opAmpGbwTolerance": "20%",
+			"resistorPreferredSeries": "E24",
+			"capacitorPreferredSeries": "E24",
+			"inductorPreferredSeries": "E12"
+		},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2026-05-11 09:41:16 PM",
+	"UpdatedDate": "2026-05-11 09:41:16 PM"
+}
